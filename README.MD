@@ -7,6 +7,11 @@ The program uses the "CloudWatchLogs queryStart" API to make only one call in a 
 
 This program also allows you to collect metrics for all instances with only one exporter agent in one AWS account.
 
+## Architecture
+### pull
+<img width="900" alt="pull_architecture" src="https://user-images.githubusercontent.com/21119703/218067081-c7fda7e9-0af7-46de-87df-4a2bc85096a3.png">
+### push
+<img width="900" alt="push_architecture" src="https://user-images.githubusercontent.com/21119703/218067099-4e102d58-167a-4f01-9c22-e9a4d2f5797b.png">
 
 
 ## Runtime Option
